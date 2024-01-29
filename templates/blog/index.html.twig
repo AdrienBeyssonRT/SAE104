@@ -1,0 +1,54 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}E-Portfolio{% endblock %}
+
+{% block body %}
+    <section class="container mt-5">
+        <h2>Bienvenue sur l'E-Portfolio d'Adrien Beysson</h2>
+        <p>
+            Bonjour, je suis Adrien Beysson. Je suis étudiant à Roanne dans le BUT Réseaux et télécommunications (RT), je suis âgé de 19 ans, je suis passionné d'informatique d'où ce parcours et je souhaite partager mes réalisations,
+            compétences et expériences à travers ce E-Portfolio.
+        </p>
+
+        <!-- Section Informations Personnelles -->
+        <div class="mt-5">
+            <h3>Informations Personnelles</h3>
+            <ul>
+                <li><strong>Nom:</strong> Beysson</li>
+                <li><strong>Prenon:</strong> Adrien</li>
+                <li><strong>Âge:</strong> 19 ans</li>
+                <li><strong>Études:</strong> BUT Réseaux et télécommunications (RT)</li>
+                <li><strong>Adresse:</strong> 12 rue Arago, Roanne</li>
+                <li><strong>Numéro de téléphone:</strong> 07 84 23 55 71</li>
+                <li><strong>E-mail:</strong> adrienbeysson1@gmail.com</li>
+            </ul>
+        </div>
+
+        <!-- Section Mon CV -->
+        <div class="mt-5">
+            <h3>Mon CV</h3>
+            <p>
+                Consultez mon CV pour en savoir plus sur mon parcours académique et professionnel.
+            </p>
+            <a href="{{ path('cv') }}" class="btn btn-primary">Voir le CV</a>
+        </div>
+
+        <!-- Section Pour en savoir plus -->
+        <div class="mt-5">
+            <h3>Pour en savoir plus</h3>
+            <p>
+                Vous pouvez en savoir plus sur mes loisirs, passions et aspirations en explorant les différentes sections de mon E-Portfolio.
+            </p>
+            <a href="{{ path('plus') }}" class="btn btn-primary">Découvrir</a>
+        </div>
+
+        <!-- Section Portfolio -->
+        <div class="mt-5">
+            <h3>Portfolio</h3>
+            <p>
+                Explorez mes compétences dans mon portfolio.
+            </p>
+            <a href="{{ path('competence') }}" class="btn btn-primary">Voir le Portfolio</a>
+        </div>
+    </section>
+{% endblock %}

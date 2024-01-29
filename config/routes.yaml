@@ -3,3 +3,15 @@ controllers:
         path: ../src/Controller/
         namespace: App\Controller
     type: attribute
+adri_ad:
+    path: /cv
+    controller: App\Controller\BlogController::cv
+adri_ad1:
+    path: /index
+    controller: App\Controller\BlogController::index
+adri_ad2:
+    path: /plus
+    controller: App\Controller\BlogController::plus
+adri_ad3:
+    path: /competence
+    controller: App\Controller\BlogController::competence

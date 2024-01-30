@@ -1,4 +1,3 @@
-
 {% extends 'base.html.twig' %}
 
 {% block title %}En Savoir Plus{% endblock %}
@@ -8,35 +7,69 @@
         <h2>Mes Passions et Passe-temps</h2>
 
         <div class="mb-4">
-            <h4>Sport</h4>
-            <img src="lien_de_l_image_sport.jpg" alt="Sport Image" class="img-fluid mb-2">
+            <h4>Boxe et Sports de Combat</h4>
+            <img src="boxe.jpg" alt="Image de Boxe" class="img-thumbnail mb-2 max-width-100">
             <p>
-                En dehors du monde du développement, je suis passionné par le sport.
-                J'aime particulièrement le football et le tennis. Que ce soit en regardant
-                des matchs ou en pratiquant moi-même, le sport est une partie importante de ma vie.
+                En dehors du monde du développement, ma passion première est la boxe. J'ai consacré du temps
+                à perfectionner mes compétences, et cela va au-delà du simple exercice physique pour moi. J'apprécie
+                également les sports de combat en général, que ce soit en les pratiquant ou en les suivant de près.
             </p>
         </div>
 
         <div class="mb-4">
-            <h4>Lecture</h4>
-            <img src="lien_de_l_image_lecture.jpg" alt="Lecture Image" class="img-fluid mb-2">
+            <h4>Jeux Occasionnels</h4>
+            <img src="rust.jpg" alt="Image de Rust" class="img-thumbnail mb-2 max-width-100">
             <p>
-                La lecture est une de mes grandes passions. Je m'intéresse à une variété de genres,
-                allant de la fiction à la non-fiction. Je trouve que la lecture est une excellente
-                façon d'explorer de nouveaux mondes et d'acquérir de nouvelles connaissances.
+                Lorsque je ne suis pas sur le ring ou devant un écran de développement, je m'accorde parfois du temps
+                pour des jeux occasionnels. C'est une façon pour moi de me détendre et de relever des défis ludiques
+                lorsque j'ai un moment de libre.
+            </p>
+            <div class="d-flex justify-content-between max-width-100">
+                <img src="valo.avif" alt="Image de Valorant" class="img-thumbnail mb-2 mr-2 max-width-100">
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <h4>Séries et Films</h4>
+            <p>
+                En dehors de mes passions sportives, j'aime me plonger dans des séries et des films captivants.
+                Que ce soit pour suivre des intrigues palpitantes ou pour découvrir de nouveaux univers, le monde
+                du divertissement visuel a une place spéciale dans ma vie. Certains de mes favoris incluent "Sons of Anarchy",
+                "Breaking Bad", et "Fast and Furious: Tokyo Drift".
+            </p>
+            <div class="d-flex justify-content-between max-width-100">
+                <img src="soa.jpg" alt="Image de Sons of Anarchy" class="img-thumbnail mb-2 mr-2 max-width-100">
+                <img src="tokyodrift.jpg" alt="Image de Fast and Furious: Tokyo Drift" class="img-thumbnail mb-2 max-width-100">
+                <img src="breakingbad.jfif" alt="Image de Breaking Bad" class="img-thumbnail mb-2 max-width-100">
+            </div>
+        </div>
+
+        <div class="mb-4">
+            <h4>Montres</h4>
+            <img src="montrej&cojpg.jpg" alt="Image de Montres" class="img-thumbnail mb-2 max-width-100">
+            <p>
+                Une autre passion qui me fascine est celle des montres. J'adore non seulement collectionner des montres,
+                mais aussi les fabriquer. L'art de créer ces petits chefs-d'œuvre mécaniques est une source infinie
+                de fascination pour moi.
             </p>
         </div>
 
         <div class="mb-4">
-            <h4>Musique</h4>
-            <img src="lien_de_l_image_musique.jpg" alt="Musique Image" class="img-fluid mb-2">
+            <h4>Cybersécurité</h4>
+            <img src="cybersecu.jpg" alt="Image de Cybersécurité" class="img-thumbnail mb-2 max-width-100">
             <p>
-                La musique occupe également une place importante dans ma vie. J'aime explorer différents
-                genres musicaux, que ce soit en écoutant des albums, en allant à des concerts, ou même
-                en jouant d'un instrument de temps en temps.
+                En tant que passionné de technologie, la cybersécurité occupe une place importante dans mes centres
+                d'intérêt. Comprendre et renforcer la sécurité informatique est une mission qui me tient à cœur, que
+                ce soit dans le cadre de mes projets personnels ou pour contribuer à un environnement numérique plus sûr.
             </p>
         </div>
 
         <!-- Ajoutez d'autres passions et passe-temps au besoin -->
     </div>
+
+    <style>
+        .max-width-100 {
+            max-width: 100%;
+        }
+    </style>
 {% endblock %}

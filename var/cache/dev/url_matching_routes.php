@@ -28,7 +28,6 @@ return [
             [['_route' => 'plus', '_controller' => 'App\\Controller\\BlogController::plus'], null, null, null, false, false, null],
             [['_route' => 'adri_ad2', '_controller' => 'App\\Controller\\BlogController::plus'], null, null, null, false, false, null],
         ],
-        '/rea' => [[['_route' => 'realisation', '_controller' => 'App\\Controller\\BlogController::realisation'], null, null, null, false, false, null]],
         '/index' => [[['_route' => 'adri_ad1', '_controller' => 'App\\Controller\\BlogController::index'], null, null, null, false, false, null]],
     ],
     [ // $regexpList

@@ -22,7 +22,6 @@ return [
     'index' => [[], ['_controller' => 'App\\Controller\\BlogController::index'], [], [['text', '/']], [], [], []],
     'competence' => [[], ['_controller' => 'App\\Controller\\BlogController::competence'], [], [['text', '/competence']], [], [], []],
     'plus' => [[], ['_controller' => 'App\\Controller\\BlogController::plus'], [], [['text', '/plus']], [], [], []],
-    'realisation' => [[], ['_controller' => 'App\\Controller\\BlogController::realisation'], [], [['text', '/rea']], [], [], []],
     'adri_ad' => [[], ['_controller' => 'App\\Controller\\BlogController::cv'], [], [['text', '/cv']], [], [], []],
     'adri_ad1' => [[], ['_controller' => 'App\\Controller\\BlogController::index'], [], [['text', '/index']], [], [], []],
     'adri_ad2' => [[], ['_controller' => 'App\\Controller\\BlogController::plus'], [], [['text', '/plus']], [], [], []],
@@ -32,5 +31,4 @@ return [
     'App\Controller\BlogController::index' => [[], ['_controller' => 'App\\Controller\\BlogController::index'], [], [['text', '/']], [], [], []],
     'App\Controller\BlogController::competence' => [[], ['_controller' => 'App\\Controller\\BlogController::competence'], [], [['text', '/competence']], [], [], []],
     'App\Controller\BlogController::plus' => [[], ['_controller' => 'App\\Controller\\BlogController::plus'], [], [['text', '/plus']], [], [], []],
-    'App\Controller\BlogController::realisation' => [[], ['_controller' => 'App\\Controller\\BlogController::realisation'], [], [['text', '/rea']], [], [], []],
 ];

@@ -527,3 +527,6 @@ abc44f,127.0.0.1,GET,http://127.0.0.1:8000/lien_de_l_image_cybersecurite.jpg,170
 cea83a,127.0.0.1,GET,http://127.0.0.1:8000/lien_de_l_image_boxe.jpg,1706604797,fd4fbc,404,request
 fd4fbc,127.0.0.1,GET,http://127.0.0.1:8000/lien_de_l_image_boxe.jpg,1706604797,,404,request
 7c3073,127.0.0.1,GET,http://127.0.0.1:8000/plus,1706604922,,200,request
+d6b866,127.0.0.1,GET,http://127.0.0.1:8000/,1706607535,,200,request
+c9fe68,127.0.0.1,GET,http://127.0.0.1:8000/,1706607540,,200,request
+d681bf,127.0.0.1,GET,http://127.0.0.1:8000/plus,1706607557,,200,request

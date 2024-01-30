@@ -90,7 +90,7 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
 
         <div class=\"mb-4\">
             <h4>Boxe et Sports de Combat</h4>
-            <img src=\"boxe.jpg\" alt=\"Image de Boxe\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"boxe.jpg\" alt=\"Image de Boxe\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 En dehors du monde du développement, ma passion première est la boxe. J'ai consacré du temps
                 à perfectionner mes compétences, et cela va au-delà du simple exercice physique pour moi. J'apprécie
@@ -100,14 +100,14 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
 
         <div class=\"mb-4\">
             <h4>Jeux Occasionnels</h4>
-            <img src=\"rust.jpg\" alt=\"Image de Rust\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"rust.jpg\" alt=\"Image de Rust\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 Lorsque je ne suis pas sur le ring ou devant un écran de développement, je m'accorde parfois du temps
                 pour des jeux occasionnels. C'est une façon pour moi de me détendre et de relever des défis ludiques
                 lorsque j'ai un moment de libre.
             </p>
-            <div class=\"d-flex justify-content-between max-width-100\">
-                <img src=\"valo.avif\" alt=\"Image de Valorant\" class=\"img-thumbnail mb-2 mr-2 max-width-100\">
+            <div class=\"d-flex justify-content-between max-width-200\">
+                <img src=\"valo.avif\" alt=\"Image de Valorant\" class=\"img-thumbnail mb-2 mr-2 max-width-200\">
             </div>
         </div>
 
@@ -119,16 +119,16 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
                 du divertissement visuel a une place spéciale dans ma vie. Certains de mes favoris incluent \"Sons of Anarchy\",
                 \"Breaking Bad\", et \"Fast and Furious: Tokyo Drift\".
             </p>
-            <div class=\"d-flex justify-content-between max-width-100\">
-                <img src=\"soa.jpg\" alt=\"Image de Sons of Anarchy\" class=\"img-thumbnail mb-2 mr-2 max-width-100\">
-                <img src=\"tokyodrift.jpg\" alt=\"Image de Fast and Furious: Tokyo Drift\" class=\"img-thumbnail mb-2 max-width-100\">
-                <img src=\"breakingbad.jfif\" alt=\"Image de Breaking Bad\" class=\"img-thumbnail mb-2 max-width-100\">
+            <div class=\"d-flex justify-content-between max-width-200\">
+                <img src=\"soa.jpg\" alt=\"Image de Sons of Anarchy\" class=\"img-thumbnail mb-2 mr-2 max-width-200\">
+                <img src=\"tokyodrift.jpg\" alt=\"Image de Fast and Furious: Tokyo Drift\" class=\"img-thumbnail mb-2 max-width-200\">
+                <img src=\"breakingbad.jfif\" alt=\"Image de Breaking Bad\" class=\"img-thumbnail mb-2 max-width-200\">
             </div>
         </div>
 
         <div class=\"mb-4\">
             <h4>Montres</h4>
-            <img src=\"montrej&cojpg.jpg\" alt=\"Image de Montres\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"montrej&cojpg.jpg\" alt=\"Image de Montres\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 Une autre passion qui me fascine est celle des montres. J'adore non seulement collectionner des montres,
                 mais aussi les fabriquer. L'art de créer ces petits chefs-d'œuvre mécaniques est une source infinie
@@ -138,7 +138,7 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
 
         <div class=\"mb-4\">
             <h4>Cybersécurité</h4>
-            <img src=\"cybersecu.jpg\" alt=\"Image de Cybersécurité\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"cybersecu.jpg\" alt=\"Image de Cybersécurité\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 En tant que passionné de technologie, la cybersécurité occupe une place importante dans mes centres
                 d'intérêt. Comprendre et renforcer la sécurité informatique est une mission qui me tient à cœur, que
@@ -150,8 +150,9 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
     </div>
 
     <style>
-        .max-width-100 {
-            max-width: 100%;
+        .max-width-200 {
+            max-width: 200px;
+            max-height: 200px;
         }
     </style>
 ";
@@ -199,7 +200,7 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
 
         <div class=\"mb-4\">
             <h4>Boxe et Sports de Combat</h4>
-            <img src=\"boxe.jpg\" alt=\"Image de Boxe\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"boxe.jpg\" alt=\"Image de Boxe\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 En dehors du monde du développement, ma passion première est la boxe. J'ai consacré du temps
                 à perfectionner mes compétences, et cela va au-delà du simple exercice physique pour moi. J'apprécie
@@ -209,14 +210,14 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
 
         <div class=\"mb-4\">
             <h4>Jeux Occasionnels</h4>
-            <img src=\"rust.jpg\" alt=\"Image de Rust\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"rust.jpg\" alt=\"Image de Rust\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 Lorsque je ne suis pas sur le ring ou devant un écran de développement, je m'accorde parfois du temps
                 pour des jeux occasionnels. C'est une façon pour moi de me détendre et de relever des défis ludiques
                 lorsque j'ai un moment de libre.
             </p>
-            <div class=\"d-flex justify-content-between max-width-100\">
-                <img src=\"valo.avif\" alt=\"Image de Valorant\" class=\"img-thumbnail mb-2 mr-2 max-width-100\">
+            <div class=\"d-flex justify-content-between max-width-200\">
+                <img src=\"valo.avif\" alt=\"Image de Valorant\" class=\"img-thumbnail mb-2 mr-2 max-width-200\">
             </div>
         </div>
 
@@ -228,16 +229,16 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
                 du divertissement visuel a une place spéciale dans ma vie. Certains de mes favoris incluent \"Sons of Anarchy\",
                 \"Breaking Bad\", et \"Fast and Furious: Tokyo Drift\".
             </p>
-            <div class=\"d-flex justify-content-between max-width-100\">
-                <img src=\"soa.jpg\" alt=\"Image de Sons of Anarchy\" class=\"img-thumbnail mb-2 mr-2 max-width-100\">
-                <img src=\"tokyodrift.jpg\" alt=\"Image de Fast and Furious: Tokyo Drift\" class=\"img-thumbnail mb-2 max-width-100\">
-                <img src=\"breakingbad.jfif\" alt=\"Image de Breaking Bad\" class=\"img-thumbnail mb-2 max-width-100\">
+            <div class=\"d-flex justify-content-between max-width-200\">
+                <img src=\"soa.jpg\" alt=\"Image de Sons of Anarchy\" class=\"img-thumbnail mb-2 mr-2 max-width-200\">
+                <img src=\"tokyodrift.jpg\" alt=\"Image de Fast and Furious: Tokyo Drift\" class=\"img-thumbnail mb-2 max-width-200\">
+                <img src=\"breakingbad.jfif\" alt=\"Image de Breaking Bad\" class=\"img-thumbnail mb-2 max-width-200\">
             </div>
         </div>
 
         <div class=\"mb-4\">
             <h4>Montres</h4>
-            <img src=\"montrej&cojpg.jpg\" alt=\"Image de Montres\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"montrej&cojpg.jpg\" alt=\"Image de Montres\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 Une autre passion qui me fascine est celle des montres. J'adore non seulement collectionner des montres,
                 mais aussi les fabriquer. L'art de créer ces petits chefs-d'œuvre mécaniques est une source infinie
@@ -247,7 +248,7 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
 
         <div class=\"mb-4\">
             <h4>Cybersécurité</h4>
-            <img src=\"cybersecu.jpg\" alt=\"Image de Cybersécurité\" class=\"img-thumbnail mb-2 max-width-100\">
+            <img src=\"cybersecu.jpg\" alt=\"Image de Cybersécurité\" class=\"img-thumbnail mb-2 max-width-200\">
             <p>
                 En tant que passionné de technologie, la cybersécurité occupe une place importante dans mes centres
                 d'intérêt. Comprendre et renforcer la sécurité informatique est une mission qui me tient à cœur, que
@@ -259,8 +260,9 @@ class __TwigTemplate_81908d47bbce01a938b3ace001b6cc8a extends Template
     </div>
 
     <style>
-        .max-width-100 {
-            max-width: 100%;
+        .max-width-200 {
+            max-width: 200px;
+            max-height: 200px;
         }
     </style>
 {% endblock %}
